@@ -97,6 +97,19 @@ body{
     height:2px ;
     transition: 0.2s;
     
+    
+}
+.clicked{
+    opacity: 0;
+}
+.rotate-right{
+    transform: rotate(45deg);
+    position: absolute;
+
+}
+.rotate-left{
+    transform: rotate(-45deg);
+    position: absolute;
 }
 .header .links .icon span:first-child{
     width: 100%;
