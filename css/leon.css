@@ -296,6 +296,9 @@ font-size: 17px;
 .portfolio .portfolio-content .card .info h3{
 margin: 0;
 }
+.portfolio .portfolio-content .card .info a{
+text-decoration:none;
+}
 .portfolio .portfolio-content .card .info p{
     color: #777;
     line-height: 1.6;
