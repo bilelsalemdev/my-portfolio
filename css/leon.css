@@ -452,7 +452,15 @@ padding: 60px 0 120px 0;
 
 }
 .about-content .image img{
-   max-width: 100%; 
+  max-width: 100%;
+   border-radius: 50%;
+   box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.5);
+   cursor: pointer;
+   transition: 0.2s;
+   
+}
+.about-content .image img:hover{
+    max-width: 120%;
 }
 
 .about-content .text{
